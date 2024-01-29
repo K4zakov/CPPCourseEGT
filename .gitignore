@@ -1,4 +1,9 @@
+# Ignore all
 *
-!.gitignore
-!.cpp
-!.h
+
+# Unignore directories
+!*/
+
+# Unignore source code files
+!source/**/*.cpp
+!source/**/*.h
