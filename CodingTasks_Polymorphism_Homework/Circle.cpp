@@ -5,7 +5,7 @@ Circle::Circle(string color, double radius) : Shape(color) {
 }
 double Circle::area() const {
 	double PI = 3.14;
-		return PI * radius * radius;
+	return PI * radius * radius;
 }
 void Circle::draw() {
 	cout << "Drawing a :" << color << " circle" << endl;
